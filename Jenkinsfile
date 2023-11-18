@@ -1,5 +1,5 @@
 node {
-    def application = "pythonapp"
+    def application = "testdocker"
     def dockerhubaccountid = "danbidt"
     stage('Clone repository') {
         checkout scm
